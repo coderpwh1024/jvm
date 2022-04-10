@@ -10,9 +10,14 @@ public class JavaVMStackSOF {
     }
 
     public static void main(String[] args) {
-
         JavaVMStackSOF oom = new JavaVMStackSOF();
-        oom.stackLeak();
+
+        try {
+            oom.stackLeak();
+        }catch (Exception e){
+            System.out.println("stack length:"+oom.stackLength);
+
+        }
 
     }
 
