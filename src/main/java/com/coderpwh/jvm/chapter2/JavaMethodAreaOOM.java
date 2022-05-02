@@ -7,6 +7,11 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
+
+/***
+ *
+ * 借助CGlib使方法区出现内存溢出异常
+ */
 public class JavaMethodAreaOOM {
 
     public static void main(String[] args) {
