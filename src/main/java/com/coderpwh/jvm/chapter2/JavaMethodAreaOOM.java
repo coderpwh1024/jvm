@@ -19,7 +19,7 @@ public class JavaMethodAreaOOM {
         while (true) {
 
             Enhancer enhancer = new Enhancer();
-            enhancer.setSuperclass(HeapOOM.OOMObject.class);
+            enhancer.setSuperclass(OOMObject.class);
             enhancer.setUseCache(false);
             enhancer.setCallback(new MethodInterceptor() {
                 @Override
@@ -31,6 +31,10 @@ public class JavaMethodAreaOOM {
             enhancer.create();
         }
 
+
+    }
+
+    static  class OOMObject{
 
     }
 
