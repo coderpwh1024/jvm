@@ -6,7 +6,10 @@ public class NotInitialization {
 //        System.out.println(SubClass.value);
 
          //  newArray 加载初始化
-        SuperClass[] sca = new SuperClass[10];
+//        SuperClass[] sca = new SuperClass[10];
+
+
+        System.out.println(ConstClass.HELLOWORLD);
 
     }
 }
