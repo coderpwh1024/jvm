@@ -1,5 +1,9 @@
 package com.coderpwh.jvm.chapter7;
 
+
+/***
+ *  父类
+ */
 public class SuperClass {
 
     static {
