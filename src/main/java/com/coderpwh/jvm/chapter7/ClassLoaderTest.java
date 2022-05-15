@@ -14,7 +14,11 @@ public class ClassLoaderTest {
 
                 try {
 
-                    String fileName = name.substring(name.lastIndexOf("."+1))+".class";
+
+                    System.out.println(name);
+                    System.out.println(name.lastIndexOf("."));
+
+                    String fileName = name.substring(name.lastIndexOf("."))+".class";
 
                     InputStream is = getClass().getResourceAsStream(fileName);
 
