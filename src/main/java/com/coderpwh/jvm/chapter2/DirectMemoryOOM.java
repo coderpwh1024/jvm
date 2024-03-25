@@ -7,6 +7,7 @@ import java.lang.reflect.Field;
 
 /***
  * 直接内存溢出
+ * @author coderpwh
  */
 public class DirectMemoryOOM {
 
